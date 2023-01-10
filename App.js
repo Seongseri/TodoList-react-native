@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import DateHead from './components/DateHead';
 import AddTodo from './components/AddTodo';
 import Empty from './components/Empty';
-import TodoList from './TodoList';
+import TodoList from './components/TodoList';
 import todosStorage from './storages/todosStorage';
 
 function App() {

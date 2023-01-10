@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, View, Text, StyleSheet } from "react-native";
-import TodoItem from "./components/TodoItem";
+import TodoItem from "./TodoItem";
 
 function TodoList({todos, onToggle, onRemove}) {
     return (
